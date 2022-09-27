@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>edureka! Learning Website</title>
+    <style>
+        body {
+            margin-top: 50px;
+        }
+
+        #icons {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #map-container {
+            height: 450px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- collapsable button-->
+                <button class="navbar-toggle" data-target="#primary-menu" data-toggle="collapse">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+                <div class="navbar-brand">
+                    <a href="index.html">edureka!</a>
+                </div>
+            </div>
+            <!-- Collapsable navigation bar -->
+            <div class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="ourstory.html">OurStory</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2><b>We are here</b></h2>
+        <div id="map-container"></div>
+    </div>
+
+    <div class="container">
+        <h2> <b>Contact Form</b></h2>
+        <hr>
+
+    </div>
+    <div class="container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2" for="name">Name</label>
+                <div class="col-md-5">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name......" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="email">Email</label>
+                <div class="col-md-5">
+                    <input type="text" name="email" id="email" class="form-control"
+                        placeholder="Enter your Email......" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="comment">Comments</label>
+                <div class="col-md-5">
+                    <textarea class="form-control" rows="5" id="comment"
+                        placeholder="Enter your Comments......"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2" for="checkboxposition">Position</label>
+                <div class="col-md-10" id="checkboxposition">
+                    <div class="container col-md-8">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Web Developer" name="checkbox-position" />
+                            Web Developer
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Data Scientist" name="checkbox-position" />
+                            Data Scientist
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="System Engineer" name="checkbox-position" />
+                            System Engineer
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Automation Test Engineer" name="checkbox-position" />
+                            Automation Test Engineer
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2" for="checkboxposition">What you prefer?</label>
+                <div class="col-md-10" id="checkboxposition">
+                    <div class="container col-md-5">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Tea" name="checkbox-position" />
+                            Tea
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="Beer" name="checkbox-position" />
+                            Beer
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label my-1 mr-2" for="inlineFormCustomSelectPref">How do you find
+                    us?</label>
+                <div>
+                    <select class="col-md-5 custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option value="1" selected>Advertisement</option>
+                        <option value="2">Friends</option>
+                        <option value="3">Google</option>
+                        <option value="4">Own research</option>
+                        <option value="5">Random</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-offset-2 col-md-2" style="padding:0 ;">
+                <button type="submit" class="btn btn-info">Submit </button>
+            </div>
+            <div class="col-md-2" style="padding:0 ;">
+                <button type="reset" class="btn btn-default">Reset</button>
+
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <div class="text-center" style="padding-top: 30px ;">
+            Copyrigt &copy; 2015 Brain4ce Education Solutions Pvt.Ltd All rights reserved
+            <a data-toggle="modal" href='#modal-tnc'>Terms and Conditions</a>
+        </div>
+        <div class="modal fade" id="modal-tnc">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title">Terms and Conditions</h2>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>
+                            We are a team of tech enthusiats who are determined to make learning easy for every one.
+                            At edureak we believe in awesome work, to make sure we provide a great learning
+                            experience
+                            to our users.
+                        </p>
+                        <p>
+                            Learning is meant to be an enjoyable activity and we put our best to turn it into that.
+                            If you think the same come <a href=#">join us!</a>
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    </br>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js"></script>
+<script>
+    window.onload = function () {
+        var location = new google.maps.LatLng(17.4351989, 78.3853365);
+
+        var map = new google.maps.Map(document.getElementById('map-container'),
+            {
+                center: location,
+                zoom: 18
+
+            });
+
+        var marker = new google.maps.Marker({
+            position: location,
+            "map": map,
+            title: "Our Location"
+        });
+        map.setMarker(marker);
+
+    };
+</script>
+</body>
+
+</html>

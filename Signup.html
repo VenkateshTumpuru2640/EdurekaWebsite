@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>edureka! Courses</title>
+    <style>
+        body {
+            margin-top: 50px;
+        }
+
+        #icons {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #freshbakedcourses,
+        #courses {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        #social-meadia-links {
+            list-style-type: none;
+            overflow: auto;
+            padding: 0;
+
+        }
+
+        #social-meadia-links>li {
+            float: left;
+            width: 20%;
+            text-align: center;
+
+        }
+
+        #social-meadia-links>li>a {
+            font-size: 2em;
+            text-decoration: none;
+
+
+        }
+
+        #mainCourses {
+
+            height: 70px;
+        }
+
+        #freshbakedcourses,
+        #courses {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- collapsable button-->
+                <button class="navbar-toggle" data-target="#primary-menu" data-toggle="collapse">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+                <div class="navbar-brand">
+                    <a href="index.html">edureka!</a>
+                </div>
+            </div>
+            <!-- Collapsable navigation bar -->
+            <div class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="ourstory.html">OurStory</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Not yet registered?</h2>
+                <hr>
+                <h3>sign Up</h3>
+                <hr>
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="name">Name</label>
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name" class="form-control"
+                                placeholder="Enter your name......" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="email">Email</label>
+                        <div class="col-md-6">
+                            <input type="text" name="email" id="email" class="form-control"
+                                placeholder="Enter your Email......" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="password">Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="password" id="password" class="form-control"
+                                placeholder="Enter your password......" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="password">Confirm</label>
+                        <div class="col-md-6">
+                            <input type="password" name="password" id="password" class="form-control"
+                                placeholder="Confirm your password......" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="checkboxposition">Position</label>
+                        <div class="col-md-10" id="checkboxposition">
+                            <div class="container col-md-6">
+                                <div class="col-mod-3"><label class="checkbox-inline">
+                                        <input type="checkbox" value="Web Developer" name="checkbox-position" />
+                                        Web Developer
+                                    </label>
+                                </div>
+                                <div class="col-mod-3"><label class="checkbox-inline">
+                                        <input type="checkbox" value="Data Scientist" name="checkbox-position" />
+                                        Data Scientist
+                                    </label>
+                                </div>
+                                <div class="col-mod-3"> <label class="checkbox-inline">
+                                        <input type="checkbox" value="System Engineer" name="checkbox-position" />
+                                        System Engineer
+                                    </label>
+                                </div>
+                                <div class="col-mod-3"> <label class="checkbox-inline">
+                                        <input type="checkbox" value="Automation Test Engineer"
+                                            name="checkbox-position" />
+                                        Automation Test Engineer
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+                        <button type="reset" class="btn btn-default">Reset </button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary">Sign Up!</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Already have account?</h2>
+                <hr>
+                <h3>sign In</h3>
+                <hr>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="loginusername">User Name</label>
+                        <div class="col-md-6">
+                            <input type="text" name="loginusername" id="loginusername" class="form-control"
+                                placeholder="Enter your User Name......" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="loginpassword">Password</label>
+                        <div class="col-md-6">
+                            <input type="password" name="loginpassword" id="loginpassword" class="form-control"
+                                placeholder="Enter your password......" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2">
+                        <button type="reset" class="btn btn-default">Reset </button>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary">Log In!</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+        <footer>
+            <div class="text-center" style="padding-top: 80px;">
+                Copyrigt &copy; 2015 Brain4ce Education Solutions Pvt.Ltd All rights reserved
+                <a data-toggle="modal" href='#modal-tnc'>Terms and Conditions</a>
+            </div>
+            <div class="modal fade" id="modal-tnc">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h2 class="modal-title">Terms and Conditions</h2>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>
+                                We are a team of tech enthusiats who are determined to make learning
+                                easy for every one.
+                                At edureak we believe in awesome work, to make sure we provide a
+                                great learning experience
+                                to our users.
+                            </p>
+                            <p>
+                                Learning is meant to be an enjoyable activity and we put our best to
+                                turn it into that.
+                                If you think the same come <a href=#">join us!</a>
+                            </p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        </br>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
